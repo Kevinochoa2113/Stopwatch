@@ -1,0 +1,70 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: black;
+    .nod{
+        background-color: rgb(182, 182, 182);
+        width: 25px;
+        height: 25px;
+        border-radius: 5%;
+        border-color: silver;
+        margin-left: 43%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+
+    }
+    .rightstop{
+        background-color: red;
+        width: 26px;
+        height: 38px;
+        border-radius:80px 80px 10px 194px;
+        margin-left: 80%;
+        margin-top: 10px;
+        position: absolute;
+        outline: none;
+    }
+    .leftstart{
+        background-color: green;
+        width: 26px;
+        height: 38px;
+        border-radius:450px 500px 1000px 194px;
+        border-color: silver;  
+        margin-top: 10px;
+        margin-left: 8%;
+        position: absolute;
+        outline: none;
+    }
+        .container{
+        background-color: rgb(228, 228, 228);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: solid 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: silver;
+    }
+    .lapWatch{
+        background-color: rgb(119, 119, 119);
+        width: 26px;
+        height: 38px;
+        border-radius: 10px;
+        margin-left: 98%;
+        margin-top: 80px;
+        position: absolute;
+        outline: none;
+    }
+}
